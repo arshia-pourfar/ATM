@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+#main {
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 1500px;
+    height: 700px;
+    transform: translate(20px, 5%);
+}
+
+#atm {
+    width: 75%;
+    height: 100%;
+    border: 4px solid black;
+    background-color: rgba(146, 146, 146, 0.164);
+}
+
+.btn1,
+.btn2 {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(139, 139, 139);
+    margin: 12px;
+    margin-top: 75px;
+    box-shadow: 2px 2px;
+}
+
+.btn1:hover,
+.btn2:hover {
+    background-color: rgb(107, 107, 107);
+}
+
+.btn1:active,
+.btn2:active {
+    box-shadow: 2px 2px inset;
+}
+
+.div-btn1 {
+    padding: 10px;
+    position: absolute;
+}
+
+.div-btn2 {
+    padding: 10px;
+    position: absolute;
+    margin-left: 67%;
+}
+
+.display {
+    width: 60%;
+    height: 85%;
+    transform: translate(12%, 8%);
+    border: 2px black solid;
+    position: absolute;
+    padding: 10px;
+    background-color: black;
+}
+
+#card-border {
+    position: absolute;
+    width: 24%;
+    height: 23%;
+    border: 4px solid black;
+    padding: 20px;
+    margin-left: 75.5%;
+}
+
+#num-border {
+    padding: 10px;
+    border: 4px solid black;
+    width: 24%;
+    height: 70%;
+    margin-left: 75.5%;
+    margin-top: 14%;
+    position: absolute;
+}
+
+.num-btn {
+    margin-top: 20px;
+    width: 20%;
+    height: 100px;
+    text-align: center;
+    box-shadow: 2px 2px black;
+    border: 3px solid black;
+    background-color: #888888;
+    padding: 32px 0px;
+    margin: 7px;
+    float: left;
+    overflow: hidden;
+    font-size: 1.6em;
+    user-select: none;
+}
+
+.num-btn:hover {
+    background-color: #e9e9e9;
+}
+
+.num-btn:active {
+    box-shadow: 1px 1px black inset;
+    padding: 29px 0px;
+}
+
+#btn-card {
+    width: 50px;
+    height: 50px;
+    margin-left: 80.3%;
+    margin-top: -20px;
+    position: absolute;
+    user-select: none;
+}
+
+#color {
+    width: 100%;
+    height: 17px;
+    margin-top: 15%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #adadad;
+}
+
+#card-input {
+    width: 100%;
+    height: 20px;
+    border-radius: 15px;
+    border: 8px solid black;
+    background-color: #fff;
+    margin-top: 8%;
+}
+
+#btn-cancel {
+    background-color: rgb(206, 0, 0);
+    width: 23%;
+}
+
+#btn-clear {
+    background-color: yellow;
+    width: 23%;
+}
+
+#btn-enter {
+    background-color: #29a729;
+    width: 23%;
+}
+
+#btn-clear:hover {
+    background-color: #f3f72f;
+}
+
+#btn-cancel:hover {
+    background-color: #f13a3a;
+}
+
+#btn-enter:hover {
+    background-color: #7dd67d;
+}
+
+.number {
+    background-color: #adadad;
+}
+
+.btn- {
+    width: 23%;
+}
+
+.btn-,
+#btn-s,
+#btn-tag {
+    background-color: rgb(173, 173, 173);
+}
+
+.btn-:hover,
+#btn-s:hover,
+#btn-tag:hover {
+    background-color: #e9e9e9;
+}
+
+.btn-:active {
+    box-shadow: 2px 2px black;
+}
+
+.text-content,
+.text-content2 {
+    width: 45%;
+    height: 60px;
+    padding: 3px;
+    margin: 20px;
+    margin-top: 75px;
+    margin-left: 20px;
+    float: left;
+    font-size: 2em;
+    user-select: none;
+}
+
+.text-content2 {
+    text-align: right;
+}
+
+#text-cont1,
+#text-cont5 {
+    margin-top: 34px;
+}
+
+#text-cont2,
+#text-cont6 {
+    margin-top: 70px;
+}
+
+#text-cont3,
+#text-cont7 {
+    margin-top: 65px;
+}
+
+#text-cont4,
+#text-cont8 {
+    margin-top: 60px;
+}
+
+#help,
+#helpE {
+    position: absolute;
+    font-size: x-large;
+    margin-left: 37%;
+    margin-top: 150px;
+    transform: translate(0, 7%);
+    user-select: none;
+    visibility: hidden;
+}
+
+.helpE {
+    margin-left: 35%;
+    margin-top: 180px;
+}
+
+#help-text {
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 100px;
+    width: 260px;
+    font-size: x-large;
+    user-select: none;
+    text-align: center;
+}
+
+#input-password {
+    width: 30%;
+    height: 50px;
+    font-size: xx-large;
+    user-select: none;
+    background-color: #fff;
+    border: 1px solid black;
+    box-shadow: 1px 1px;
+    position: absolute;
+    visibility: hidden;
+    transform: translate(115%, 230px);
+    text-align: center;
+}
