@@ -34,9 +34,6 @@ function reset() {
     window.location.reload();
 }
 
-
-function startproject() {
-
     btncard.addEventListener("click", (e) => {
         main();
         password.style.visibility = "visible";
@@ -133,4 +130,3 @@ function startproject() {
             reset();
         });
     }
-}
