@@ -12,7 +12,10 @@ let resultmoneychange = false;
 let resultmoneychangelength = false;
 
 function persianapp() {
-
+var isAndroid = /android/i.test(navigator.userAgent.toLowerCase());
+    if (isAndroid) {
+        alert("hello");
+    }
     text1.textContent = ". دریافت وجه";
     text2.textContent = ". پرداخت ارز";
     text3.textContent = ". انتقال وجه";
